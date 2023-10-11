@@ -1,0 +1,43 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed; /* Fix the table layout */
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  white-space: normal; /* Allow text to wrap to the next line if necessary */
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+#customers tr {
+  padding: 16px; /* Increase the padding to increase row size */
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 20px; /* Increase the padding to increase the size of the header row */
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: #f1f4f3;
+  color: black;
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+}
+th{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
